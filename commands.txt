@@ -1,0 +1,7 @@
+# drops database
+# run from root folder
+dotnet ef database drop -s API/ -p Persistence
+
+# starts .NET app with no hot reloads
+# run from API/ folder
+dotnet watch --no-hot-reload
