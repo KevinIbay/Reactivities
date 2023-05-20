@@ -5,6 +5,8 @@ dotnet ef database drop -s API/ -p Persistence
 # starts .NET app with no hot reloads
 # run from API/ folder
 dotnet watch --no-hot-reload
+or
+dotnet watch run
 
 # test user(s)
 bob@test.com
